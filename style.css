@@ -1,0 +1,206 @@
+.heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.search-bar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.search-bar input {
+    width: 800px;
+    padding: 10px;
+}
+.search-bar button {
+    padding: 10px 20px;
+}
+.fashion {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    padding: 20px;
+}
+.fashion button {
+    padding: 10px 20px;
+}
+.image1{
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    gap:100px;
+    justify-content: center;
+}
+.image1 p{
+    margin-top: 10px;
+            font-size: 16px;
+            color: #333;
+}
+
+.image2 {
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    
+    
+    justify-content: space-around;
+}
+.image2 img{
+    flex-direction: row;
+}
+.image2 p{
+    margin-top: 10px;
+            font-size: 16px;
+            color: #8a1616;
+            flex-direction: column;
+            justify-content: center;
+}
+.header {
+    text-align: center;
+    margin: 20px 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+.fashion-tips-container {
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 49px;
+    padding: 50px;
+}
+.fashion-tips-container button{
+    padding:5px 5px;
+}
+.tip {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+}
+.tip img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.tip p {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #333;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin: 10px 0;
+}
+.actions button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.actions button.like {
+    background-color: #4CAF50;
+    color: white;
+}
+.actions button.dislike {
+    background-color: #f44336;
+    color: white;
+}
+.comment-section {
+    margin-top: 10px;
+}
+.comment-section textarea {
+    width: 65%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+}
+.comment-section button {
+    margin-top: 5px;
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add-tip-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.add-tip-button button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.virtual-events-container {
+    padding: 20px;
+}
+.virtual-events-header {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 36px;
+    font-weight: bold;
+}
+.event {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.event-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+.event-date {
+    font-size: 26px;
+    color: #555;
+}
+.event-details {
+    margin-top: 10px;
+    font-size: 26px;
+    color: #333;
+}
+.join-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.explore-more {
+    text-align: center;
+    margin: 20px 0;
+}
+.explore-more button {
+    padding: 10px 20px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.calendar {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.calendar iframe {
+    border: none;
+    width: 80%;
+    height: 200px;
+}
